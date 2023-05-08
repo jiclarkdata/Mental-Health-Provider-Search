@@ -1,4 +1,4 @@
 # Mental-Health-Provider-Search
 This repository is a tool to find Mental Health Provider contact information. At time of publishing, the repository includes code to search the NPPES provider database using their API to return a spreadsheet of providers that match the search criteria.
 
-
+Many individuals who have sought mental healthcare services struggle to find a provider who meets their needs. There are a vast number sources of provider information across the internet. Websites such as [Psychology Today] (https://www.psychologytoday.com/us) privatize Therapist information, so users cannot find their phone number or email to contact. Instead, Psychology Today uses a messaging feature and creates unique phone numbers so they can track messages and calls coming from their website. This means that providers who post their information across multiple platforms often have to keep track of updating multiple sources of information.
