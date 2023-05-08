@@ -1,0 +1,6 @@
+﻿Taxonomies,,Notes,Source:
+Marriage & Family Therapist,,"Includes Four taxonomies that apply to Mental Health. These could be switched out for another area of healthcare, or if new taxonomies appear, you can add to the list.",https://resdac.org/cms-data/variables/mental-health-provider-taxonomy-indicator 
+Psychoanalyst,,"*Removed Behavior Techs, pediatrics, nurses, school psychologists & social workers,",https://resdac.org/sites/datadocumentation.resdac.org/files/Mental%20Health%20Provider%20Taxonomy%20Indicator%20Code%20Table%20%28TAF%20Claims%29.txt 
+Psychologist,,"*Removed variations like ""Pscyhologist, Social"" or ""Social Worker, Clinical"" because the search feature will capture everything before the comma only. It will still include these variations",
+Social Worker,,,
+Marriage and ,,"The row ""Marriage and"" is for instructional purposes to show what happens when a Taxonomy does not appear in the search",
