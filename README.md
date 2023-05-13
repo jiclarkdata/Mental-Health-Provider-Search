@@ -1,5 +1,5 @@
 # Mental-Health-Provider-Search
-## __Description__:
+## __Description__
 This repository is a tool to find Mental Health Provider contact information. At time of publishing, the repository includes code to search the [NPPES provider database] (https://npiregistry.cms.hhs.gov/search) using their API to return a spreadsheet of providers that match the search criteria.
 
 Many individuals who have sought mental healthcare services struggle to find a provider who meets their needs. There are a vast number of sources of provider information across the internet. Websites such as Psychology Today (https://www.psychologytoday.com/us) privatize therapist information, so users cannot find their phone number or email to contact. Instead, Psychology Today uses a messaging feature and creates unique phone numbers so they can track messages and calls coming from their website. This means that providers who post their information across multiple platforms often have to keep track of updating multiple sources of information.
@@ -12,7 +12,7 @@ The output of the NPI Search file is an excel file with multiple sheets. There i
 
 Future development of this repository could include a front end mechanism for non-technical users in order to help as many people as possible access mental healthcare resources.
 
-## __Setup__:
+## __Setup__
 1. Clone this repo
 2. Install necessary packages
 - Requests
@@ -28,7 +28,7 @@ Searchable Columns (Columns marked “Yes” in the Data Dictionary)
 - Provider Last Name
 4. Run the “NPI_Provider_Search.py” file to get the XLSX document with provider information.
 
-## __Data Dictionary__:
+## __Data Dictionary__
 *Note: There is no column for Data Type because all columns are converted to string in python.
 
 |	Output Column	|	NPPES JSON Field Name	|	Example	|	Description	|	Available as Input Search? (Yes or Blank)	|
@@ -48,5 +48,6 @@ Searchable Columns (Columns marked “Yes” in the Data Dictionary)
 |	Enumeration_Type	|	enumeration_type	|	NPI-1	|	*Not displayed in output Always NPI-1, which refers to Individual Providers (as opposed to Organizational Providers).	|		|
 |	address_purpose*	|	addresses[1].address_purpose	|	MAILING	|	*Not displayed in output Always Mailing, because there are multiple types of addresses and mailing is the most reliable source of phone number.	|		|
 
-## __Contact__:
+## __Contact__
 Jessica Clark: jessica.clark97@gmail.com
+LinkedIn: https://www.linkedin.com/in/jessica-clark-83b63aba
